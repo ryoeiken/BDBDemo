@@ -13,3 +13,41 @@ swiper {
 swiper image {
   width: 100%;
 }
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.nav navigator {
+  width: 33.3%;
+  margin: 0 auto;
+  text-align: center;
+  border-right: 1rpx solid #ccc;
+  border-bottom: 1rpx solid #ccc;
+  box-sizing: border-box;
+  padding: 20rpx 0;
+  font-size: 30rpx;
+  background-color: #fff;
+}
+
+.nav navigator:nth-child(3n) {
+  border-right: none;
+}
+
+.nav navigator image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.links navigator {
+  float: left;
+  padding-top: 55rpx;
+  padding-left: 20rpx;
+}
+
+.links navigator image {
+  width: 340rpx;
+  height: 200rpx;
+}
