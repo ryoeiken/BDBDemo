@@ -11,7 +11,7 @@ Page({
     ],
     indicatorDots: true,
     autoplay: true,
-    interval: 5000,
+    interval: 4000,
     duration: 1000,
     circular: true
 
