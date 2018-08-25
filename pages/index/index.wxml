@@ -12,8 +12,8 @@
 
 
   <view class='nav'>
-    <navigator wx:for="{{nav}}" wx:key="index">
-      <image src="{{item.url}}" />
+    <navigator wx:for="{{navUrls}}" wx:key="id">
+      <image src="{{item.icon}}" />
       <view> {{item.name}} </view>
     </navigator>
   </view>
