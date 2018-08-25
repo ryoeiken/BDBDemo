@@ -1,23 +1,22 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/msg/msg",
     "pages/mine/mine"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#5DADE2",
     "navigationBarTitleText": "本地宝小程序",
-    "navigationBarTextStyle":"white"
+    "navigationBarTextStyle": "white"
   },
-
-  "tabBar":{
-    "list":[
+  "tabBar": {
+    "list": [
       {
-        "pagePath":"pages/index/index",
-        "text":"首页",
-        "iconPath":"./assets/tabs/home.png",
-        "selectedIconPath":"./assets/tabs/home-active.png"
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./assets/tabs/home.png",
+        "selectedIconPath": "./assets/tabs/home-active.png"
       },
       {
         "pagePath": "pages/msg/msg",
