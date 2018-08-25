@@ -16,23 +16,45 @@ Page({
     duration: 1000,
     circular: true,
 
-    navImgUrls: [
-      'https://i.jpg.dog/img/b6879f193eaf82b327f3deaede2c8114.png',
-      'https://i.jpg.dog/img/37b2e7c602b1a089e3e78a568e22dffa.png',
-      'https://i.jpg.dog/img/9e343254d3017e944bfa6c783151957f.png',
-      'https://i.jpg.dog/img/50ed787c3debe35eebc9151115cc1b41.png',
-      'https://i.jpg.dog/img/098e16d29e0c24c97568e3c1b80c3bf7.png',
-      'https://i.jpg.dog/img/803165c1c046d1f85630933b927dd3a2.png',
-      'https://i.jpg.dog/img/03f32489840564425078da272e4a44e7.png',
-      'https://i.jpg.dog/img/57322b0d201f8e84b4088ed829616353.png',
-      'https://i.jpg.dog/img/95de172614f537c36df654bb18ac616d.png'
+    nav: [{
+      url: 'https://i.jpg.dog/img/b6879f193eaf82b327f3deaede2c8114.png',
+      name: '美食'
+    },
+    {
+      url: 'https://i.jpg.dog/img/37b2e7c602b1a089e3e78a568e22dffa.png',
+      name: '洗浴足疗'
+    },
+    {
+      url: 'https://i.jpg.dog/img/9e343254d3017e944bfa6c783151957f.png',
+      name: '结婚啦'
+    },
+    {
+      url: 'https://i.jpg.dog/img/50ed787c3debe35eebc9151115cc1b41.png',
+      name: '卡拉OK'
+    },
+    {
+      url: 'https://i.jpg.dog/img/098e16d29e0c24c97568e3c1b80c3bf7.png',
+      name: '找工作'
+    },
+    {
+      url: 'https://i.jpg.dog/img/803165c1c046d1f85630933b927dd3a2.png',
+      name: '辅导班'
+    },
+    {
+      url: 'https://i.jpg.dog/img/03f32489840564425078da272e4a44e7.png',
+      name: '汽车保养'
+    },
+    {
+      url: 'https://i.jpg.dog/img/57322b0d201f8e84b4088ed829616353.png',
+      name: '租房'
+    },
+    {
+      url: 'https://i.jpg.dog/img/95de172614f537c36df654bb18ac616d.png',
+      name: '装修'
+    }
     ],
 
-    navItems: [
-      '美食', '洗浴足疗', '结婚啦', '卡拉OK', '找工作', '辅导班', '汽车保养', '租房', '装修'
-    ],
-
-    linksImgUrls:[
+    linksImgUrls: [
       'https://i.jpg.dog/img/aba6bc7b706004625a04c5009e429939.png',
       'https://i.jpg.dog/img/028979711a10a3e5a3e78fb7970dbb86.png'
     ]

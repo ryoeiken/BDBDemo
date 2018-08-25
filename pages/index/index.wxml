@@ -13,10 +13,9 @@
 
   <view class='nav'>
 
-    <navigator wx:for="{{navImgUrls}}" wx:key="index">
-      <image src="{{item}}" />
-      <!-- <view wx:for="{{navItems}}"> {{item}} </view> -->
-      <view>美食</view>
+    <navigator wx:for="{{nav}}" wx:key="index">
+      <image src="{{item.url}}" />
+      <view> {{item.name}} </view>
     </navigator>
   </view>
 
