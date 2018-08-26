@@ -1,4 +1,5 @@
 /* pages/msg/msg.wxss */
+
 page {
   width: 100%;
   height: 100%;
@@ -12,8 +13,37 @@ page {
 }
 
 .box-item {
+  display: flex;
   margin: 35rpx;
   background-color: yellow;
   width: 100%;
   height: 740rpx;
+  border-radius: 20rpx;
+  padding: 20rpx;
+}
+
+.title {
+  display: flex;
+  flex-wrap:wrap;
+  background-color: red;
+  width: 100%;
+  height: 140rpx;
+}
+
+.title-text {
+  width: 100%;
+  height: 80rpx;
+  font-size: 50rpx;
+  background-color: pink;
+  line-height: 80rpx;
+}
+
+.time {
+  margin-top: 10rpx;
+  width: 100%;
+  height: 50rpx;
+  background-color: green;
+  font-size:30rpx;
+  line-height: 50rpx;
+  color: #ccc;
 }
