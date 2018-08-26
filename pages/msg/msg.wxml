@@ -1,9 +1,16 @@
 <!--pages/msg/msg.wxml-->
 <view class='box'>
+  <!-- 单个item -->
   <view class='box-item'>
+    <!-- 标题栏 -->
     <view class='title'>
       <view class='title-text'>免费送票！超有内涵的门票</view>
       <view class='time'>2017-12-05</view>
+    </view>
+    <!-- 内容 -->
+    <view class='content'>
+      <view class='content-img'></view>
+      <view class='content-text'></view>
     </view>
   </view>
 </view>
