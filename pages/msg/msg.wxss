@@ -8,16 +8,16 @@ page {
 .box {
   width: 100%;
   height: 100%;
-  background-color: blue;
   display: flex;
 }
 
 .box-item {
   display: flex;
+  flex-wrap: wrap;
   margin: 35rpx;
-  background-color: yellow;
+  background-color: white;
   width: 100%;
-  height: 740rpx;
+  height: 700rpx;
   border-radius: 20rpx;
   padding: 20rpx;
 }
@@ -25,7 +25,6 @@ page {
 .title {
   display: flex;
   flex-wrap: wrap;
-  /* background-color: red; */
   width: 100%;
   height: 140rpx;
   border-bottom: solid 1rpx #ccc;
@@ -35,15 +34,38 @@ page {
   width: 100%;
   height: 80rpx;
   font-size: 50rpx;
-  /* background-color: pink; */
   line-height: 80rpx;
 }
 
 .time {
   width: 100%;
   height: 60rpx;
-  /* background-color: green; */
   font-size: 30rpx;
   line-height: 60rpx;
   color: #ccc;
+}
+
+.content {
+  margin-top: 20rpx;
+  width: 100%;
+  height: 480rpx;
+}
+
+.content-img {
+  width: 100%;
+  height: 400rpx;
+  background-color: cyan;
+}
+
+.content-text {
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #ccc;
+  border-bottom: solid #ccc 1rpx;
+}
+
+.read {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
 }

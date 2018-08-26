@@ -10,7 +10,10 @@
     <!-- 内容 -->
     <view class='content'>
       <view class='content-img'></view>
-      <view class='content-text'></view>
+      <view class='content-text'>越努力，越幸运~</view>
     </view>
+
+    <!-- 阅读 -->
+    <view class='read'>Read All~</view>
   </view>
 </view>
