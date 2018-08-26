@@ -1,2 +1,9 @@
 <!--pages/msg/msg.wxml-->
-<text>pages/msg/msg.wxml</text>
+<view class='box'>
+  <view class='box-item'>
+    <view class='title'>
+      <view class='title-text'></view>
+      <view class='time'></view>
+    </view>
+  </view>
+</view>
