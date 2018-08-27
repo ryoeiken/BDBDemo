@@ -6,7 +6,7 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "66ccff",
+    "navigationBarBackgroundColor": "#66ccff",
     "navigationBarTitleText": "本地宝小程序",
     "navigationBarTextStyle": "white"
   },

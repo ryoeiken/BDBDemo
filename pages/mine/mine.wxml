@@ -3,7 +3,7 @@
 <view class='container'>
   <!-- 头像部分 -->
   <view class='headPic' bindtap='uploadImg'>
-      <image src='{{imgUrl}}'></image>
+    <image src='{{imgUrl}}'></image>
   </view>
   <!-- 链接部分 -->
   <view class='links'>
