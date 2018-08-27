@@ -16,7 +16,7 @@
     </view>
 
     <!-- 阅读 -->
-    <view class='read'>Read All~</view>
+    <view class='read arrow-right'>Read All~</view>
   </navigator>
 
   <!-- 单个item -->
@@ -35,8 +35,7 @@
     </view>
 
     <!-- 阅读 -->
-    <view class='read'>Read All~</view>
+    <view class='read arrow-right'>Read All~</view>
   </navigator>
-
 
 </view>

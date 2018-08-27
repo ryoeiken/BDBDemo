@@ -43,7 +43,7 @@ page {
   height: 60rpx;
   font-size: 30rpx;
   line-height: 60rpx;
-  color: #ccc;
+  color: #666;
 }
 
 .content {

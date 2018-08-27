@@ -3,9 +3,25 @@ page {
 }
 
 .clearfix:after {
-  content: ".";
+  content: '';
   display: block;
   height: 0;
   clear: both;
   visibility: hidden;
+}
+
+.arrow-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow-right::after {
+  content: '';
+  width: 25rpx;
+  height: 25rpx;
+  border: 1rpx solid #666;
+  transform: rotate(45deg);
+  border-bottom: none;
+  border-left: none;
 }
