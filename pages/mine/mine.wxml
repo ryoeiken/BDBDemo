@@ -6,18 +6,18 @@
   </view>
   <!-- 链接部分 -->
   <view class='links'>
-    <view class='options'>
-      <navigator class='arrowright'>个人资料</navigator>
-      <navigator class='arrowright'>我的优惠券</navigator>
+    <view class='options '>
+      <navigator class='arrow-right'>个人资料</navigator>
+      <navigator class='arrow-right'>我的优惠券</navigator>
     </view>
     <view class='options'>
-      <navigator class='arrowright'>常见问题</navigator>
-      <navigator class='arrowright'>使用条款</navigator>
-      <navigator class='arrowright'>隐私权政策</navigator>
-      <navigator class='arrowright'>联系客服</navigator>
+      <navigator class='arrow-right'>常见问题</navigator>
+      <navigator class='arrow-right'>使用条款</navigator>
+      <navigator class='arrow-right'>隐私权政策</navigator>
+      <navigator class='arrow-right'>联系客服</navigator>
     </view>
     <view class='options'>
-      <navigator class='arrowright'>设置</navigator>
+      <navigator class='arrow-right'>设置</navigator>
     </view>
   </view>
 </view>
