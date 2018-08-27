@@ -1,7 +1,7 @@
 <!--pages/msg/msg.wxml-->
 <view class='box'>
   <!-- 单个item -->
-  <view class='box-item'>
+  <navigator class='box-item'>
     <!-- 标题栏 -->
     <view class='title'>
       <view class='title-text'>免费送票！超有内涵的门票</view>
@@ -9,15 +9,18 @@
     </view>
     <!-- 内容 -->
     <view class='content'>
-      <view class='content-img'></view>
+      <view class='content-img'>
+        <image src='https://i.jpg.dog/img/beb5ab3be544a4faf2e693a3a806675b.jpg'></image>
+      </view>
       <view class='content-text'>越努力，越幸运~</view>
     </view>
 
     <!-- 阅读 -->
     <view class='read'>Read All~</view>
-  </view>
+  </navigator>
 
-    <view class='box-item'>
+  <!-- 单个item -->
+  <navigator class='box-item'>
     <!-- 标题栏 -->
     <view class='title'>
       <view class='title-text'>免费送票！超有内涵的门票</view>
@@ -25,11 +28,15 @@
     </view>
     <!-- 内容 -->
     <view class='content'>
-      <view class='content-img'></view>
+      <view class='content-img'>
+        <image src='https://i.jpg.dog/img/beb5ab3be544a4faf2e693a3a806675b.jpg'></image>
+      </view>
       <view class='content-text'>越努力，越幸运~</view>
     </view>
 
     <!-- 阅读 -->
     <view class='read'>Read All~</view>
-  </view>
+  </navigator>
+
+
 </view>
