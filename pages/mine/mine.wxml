@@ -1,4 +1,24 @@
-<!--pages/mine/mine.wxml-->
-<view class='box'>
-  <view class='head'></view>
+<!--pages/my/my.wxml-->
+<!-- 大盒子 -->
+<view class='container'>
+  <!-- 头像部分 -->
+  <view class='headPic' bindtap='uploadImg'>
+      <image src='{{imgUrl}}'></image>
+  </view>
+  <!-- 链接部分 -->
+  <view class='links'>
+    <view class='options'>
+      <navigator class='arrowright'>个人资料</navigator>
+      <navigator class='arrowright'>我的优惠券</navigator>
+    </view>
+    <view class='options'>
+      <navigator class='arrowright'>常见问题</navigator>
+      <navigator class='arrowright'>使用条款</navigator>
+      <navigator class='arrowright'>隐私权政策</navigator>
+      <navigator class='arrowright'>联系客服</navigator>
+    </view>
+    <view class='options'>
+      <navigator class='arrowright'>设置</navigator>
+    </view>
+  </view>
 </view>

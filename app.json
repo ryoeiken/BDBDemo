@@ -6,12 +6,12 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#5DADE2",
+    "navigationBarBackgroundColor": "66ccff",
     "navigationBarTitleText": "本地宝小程序",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "selectedColor": "#5DADE2",
+    "selectedColor": "#66ccff",
     "list": [
       {
         "pagePath": "pages/index/index",
